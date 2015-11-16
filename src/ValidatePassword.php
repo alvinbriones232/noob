@@ -4,6 +4,6 @@ class ValidatePassword {
 	const MAX_LENGTH = 4;*/
 	public function validLength($password) {
 		$passLength = strlen($password);
-		return $passLength >= 1 && $passLength <= 4;
+		return false;
 	}
 }
