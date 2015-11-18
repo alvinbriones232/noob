@@ -11,7 +11,7 @@
         public function testExpectBarActualBaz()
         {
             $this->expectOutputString('bar');
-            print 'baz';
+            print 'bar';
         }
     }
 ?>
