@@ -1,16 +1,17 @@
 <?php
-class OutputTest extends PHPUnit_Framework_TestCase
-{
-    public function testExpectFooActualFoo()
+    class OutputTest extends PHPUnit_Framework_TestCase
     {
-        $this->expectOutputString('foo');
-        print 'foo';
-    }
+        public function testExpectFooActualFoo()
+        {
+            /*$this->expectOutputString('foo');
+            print 'foo';*/
+            echo 'nei';
+        }
 
-    public function testExpectBarActualBaz()
-    {
-        $this->expectOutputString('bar');
-        print 'baz';
+        public function testExpectBarActualBaz()
+        {
+            $this->expectOutputString('bar');
+            print 'baz';
+        }
     }
-}
 ?>
